@@ -14,7 +14,10 @@ use Magento\Framework\Exception\LocalizedException;
 
 class FormKeyValidatorSkip
 {
-    public const ACCEPT_MODULE = ['checkout', 'makeoffer'];
+    /**
+     * Module name for skip
+     */
+    public const ACCEPT_MODULE = ['checkout'];
 
     /**
      * @var AppState
